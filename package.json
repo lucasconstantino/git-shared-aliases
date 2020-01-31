@@ -1,9 +1,11 @@
 {
   "name": "git-shared-aliases",
   "version": "0.1.0",
-  "description": "A drop-in tool for easy local shared Git aliases",
-  "license": "MIT",
   "private": false,
+  "description": "Git aliases made available across your team",
+  "repository": "git@github.com:lucasconstantino/git-local-aliases.git",
+  "license": "MIT",
+  "author": "Lucas Constantino Silva <lucasconstantinosilva@gmail.com>",
   "scripts": {
     "install": "node ./install-aliases.js",
     "test": "jest"
