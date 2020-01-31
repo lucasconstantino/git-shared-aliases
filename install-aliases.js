@@ -6,7 +6,7 @@ const dir = process.env.INIT_CWD;
 
 if (!dir) {
   throw new Error(
-    "INIT_CWD not available: if using Yarn, ensure it is on version > 1.19"
+    "INIT_CWD not available, please upgrade your package manager"
   );
 }
 
