@@ -9,6 +9,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "pkg-dir": "^4.2.0",
     "shelljs": "^0.8.3"
   },
   "devDependencies": {
