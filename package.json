@@ -5,6 +5,14 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "postinstall": "node ./install-aliases.js"
+    "postinstall": "node ./install-aliases.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "shelljs": "^0.8.3"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0",
+    "tmp": "^0.1.0"
   }
 }
