@@ -1,5 +1,5 @@
 {
-  "name": "git-local-aliases",
+  "name": "git-shared-aliases",
   "version": "0.1.0",
   "description": "A drop-in tool for easy local shared Git aliases",
   "license": "MIT",

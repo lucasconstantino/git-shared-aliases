@@ -15,7 +15,7 @@ const targetDir = path.resolve(dir, package.gitAliasesDir || `./git-aliases`);
 
 if (!fs.existsSync(targetDir)) {
   console.info(
-    `git-local-aliases is installed, but no aliases were found at ${targetDir}`
+    `git-shared-aliases is installed, but no aliases were found at ${targetDir}`
   );
   process.exit();
 }

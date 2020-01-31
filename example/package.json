@@ -1,9 +1,9 @@
 {
-  "name": "git-local-aliases--example",
+  "name": "git-shared-aliases--example",
   "version": "1.0.0",
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "git-local-aliases": "../"
+    "git-shared-aliases": "../"
   }
 }
