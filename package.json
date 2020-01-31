@@ -3,7 +3,7 @@
   "version": "0.1.1",
   "private": false,
   "description": "Git aliases made available across your team",
-  "repository": "git@github.com:lucasconstantino/git-local-aliases.git",
+  "repository": "git@github.com:lucasconstantino/git-shared-aliases.git",
   "license": "MIT",
   "author": "Lucas Constantino Silva <lucasconstantinosilva@gmail.com>",
   "scripts": {
