@@ -1,15 +1,15 @@
 const fs = require("fs");
 const path = require("path");
 const shell = require("shelljs");
+const pkgDir = require("pkg-dir");
 
-const dir = process.env.INIT_CWD;
-
-if (!dir) {
+if (!process.env.INIT_CWD) {
   throw new Error(
     "INIT_CWD not available, please upgrade your package manager"
   );
 }
 
+const dir = pkgDir.sync(process.env.INIT_CWD).replace(/^\/private/, "");
 const package = require(`${dir}/package.json`);
 const targetDir = path.resolve(dir, package.gitAliasesDir || `./git-aliases`);
 
