@@ -5,7 +5,7 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "postinstall": "node ./install-aliases.js",
+    "install": "node ./install-aliases.js",
     "test": "jest"
   },
   "dependencies": {
