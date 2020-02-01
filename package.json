@@ -1,6 +1,6 @@
 {
   "name": "git-shared-aliases",
-  "version": "0.1.1",
+  "version": "0.2.1",
   "private": false,
   "description": "Git aliases made available across your team",
   "repository": "git@github.com:lucasconstantino/git-shared-aliases.git",
