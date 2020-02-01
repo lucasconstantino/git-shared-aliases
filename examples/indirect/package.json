@@ -1,0 +1,9 @@
+{
+  "name": "git-shared-aliases--indirect",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "git-shared-aliases--direct": "../direct/"
+  }
+}
