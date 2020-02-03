@@ -149,10 +149,7 @@ describe("install-aliases", () => {
       });
 
       it.skip("[npm] should install git aliases", () => {
-        console.log({ dir });
         result = exec(`cd ${dir}; npm install --dev ${direct}`, options);
-
-        console.log({ result });
 
         // check config setup
         const config = readFileSync(`${dir}/.git/config`).toString();

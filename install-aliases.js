@@ -1,4 +1,3 @@
-const fs = require("fs");
 const path = require("path");
 const shell = require("shelljs");
 const pkgDir = require("pkg-dir");
@@ -39,6 +38,14 @@ for (const alias of aliases) {
     cwd: rootDir
   });
 }
+
+// save root as custom config
+shell.exec(
+  `git config git-shared-alias.root "${path.relative(gitRoot, rootDir)}"`,
+  {
+    cwd: rootDir
+  }
+);
 
 function cleanPath(pathStr) {
   return (
