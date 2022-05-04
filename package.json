@@ -1,11 +1,12 @@
 {
   "name": "git-shared-aliases",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "private": false,
   "description": "Git aliases made available across your team",
   "repository": "git@github.com:lucasconstantino/git-shared-aliases.git",
   "license": "MIT",
   "author": "Lucas Constantino Silva <lucasconstantinosilva@gmail.com>",
+  "bin": "install-aliases.js",
   "scripts": {
     "install": "node ./install-aliases.js",
     "test": "jest"
